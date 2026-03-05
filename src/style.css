@@ -5,13 +5,20 @@ background-repeat: no-repeat;
 
 .employee-management-system {
     border: red 2px solid;
+    justify-content: center;
+    align-items: center;
+    margin: 3pc;
 }
-#welcome-message {
+
+h1 {
 font-family: sans-serif;
 font-size: 18px;
+text-align: center;
 }
 
 button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
+    padding: 5px;
+    margin-left: 60;
     }
