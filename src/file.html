@@ -1,11 +1,40 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="style.css" href="stylesheet" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Fingerprint Clocking System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Employee Clocking System</h2>
+
+<input type="text" id="employeeID" placeholder="Enter Employee ID">
+
+<button id="clockInBtn">Clock In</button>
+<button id="clockOutBtn">Clock Out</button>
+
+<p id="status"></p>
+
+<h3>Attendance Records</h3>
+<table border="1">
+<thead>
+<tr>
+<th>ID</th>
+<th>Time</th>
+<th>Action</th>
+<th>Status</th>
+</tr>
+</thead>
+
+<tbody id="attendanceTable"></tbody>
+</table>
+
+<h3>This Week's Late Employees</h3>
+<ul id="lateList"></ul>
+
+<script src="script.js"></script>
+
+</body>
 </html>
