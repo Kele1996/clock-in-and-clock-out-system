@@ -1,9 +1,17 @@
 body {
-    background: linear-gradient(to top, #09203f 0%, #537895 100%) ;
+background: #22313f; 
+background-repeat: no-repeat;
 }
 
-.welcome-message {
-    font-family: sans-serif;
-    font-size: 18px;
-    font-color: 
+.employee-management-system {
+    border: red 2px solid;
 }
+#welcome-message {
+font-family: sans-serif;
+font-size: 18px;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    }
