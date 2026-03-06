@@ -1,24 +1,103 @@
-body {
-background: #22313f; 
-background-repeat: no-repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.employee-management-system {
-    border: red 2px solid;
+/* Page background */
+
+body {
+    background-color: #eef2f7;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3pc;
+    height: 100vh;
 }
 
-h1 {
-font-family: sans-serif;
-font-size: 18px;
-text-align: center;
+/* Main system container */
+
+.employee-management-system {
+    background: white;
+    padding: 40px;
+    width: 420px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
+
+/* Heading */
+
+.employee-management-system h1 {
+    color: #1f2d3d;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+/* Employee ID input */
+
+#employee-id {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+/* Buttons layout */
 
 button {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-    padding: 5px;
-    margin-left: 60;
-    }
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Clock in button */
+
+#clock-in-btn {
+    background-color: #96243d;
+    color: white;
+}
+
+/* Clock out button */
+
+#clock-out-btn {
+    background-color: #00a896;
+    color: white;
+}
+
+/* Red list button */
+
+#red-list {
+    background-color: #ff5a5f;
+    color: white;
+}
+
+/* Attendance register button */
+
+#attendance-register {
+    background-color: #1f2d3d;
+    color: white;
+}
+
+/* Hover effects */
+
+button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* System message */
+
+#message {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
